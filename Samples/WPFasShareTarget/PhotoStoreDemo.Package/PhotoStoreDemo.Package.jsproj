@@ -54,9 +54,9 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <PackageCertificateKeyFile>PhotoStoreDemo.Package_TemporaryKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
-    <AppxBundle>Always</AppxBundle>
-    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
-    <PackageCertificateThumbprint>BA133363BA23C28CC59881285B460CB8D9824F80</PackageCertificateThumbprint>
+    <AppxBundle>Auto</AppxBundle>
+    <AppxBundlePlatforms>x86</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>E6D0E4E791912E05F27A36791F6551A0D07BCFF6</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
