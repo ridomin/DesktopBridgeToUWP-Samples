@@ -22,7 +22,9 @@
   </Resources>
   <Applications>
     <Application Id="PhotoStoreDemo" Executable="PhotoStoreDemo.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="PhotoStoreDemo" Description="PhotoStoreDemo" BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png">
+      <uap:VisualElements DisplayName="PhotoStoreDemo.M" 
+                          Description="Photo Store Demo" 
+                          BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" 
                          Square310x310Logo="Assets\LargeTile.png" 
                          Square71x71Logo="Assets\SmallTile.png">
@@ -67,8 +69,8 @@
             </uap:SupportedFileTypes>
           </uap3:FileTypeAssociation>
         </uap3:Extension>
-        <uap:Extension Category="windows.shareTarget" Executable="ShareUX.exe" EntryPoint="ShareUX.App">
-          <uap:ShareTarget Description="Photo Store Demo">
+        <uap:Extension Category="windows.shareTarget" Executable="ShareUIApp.exe" EntryPoint="ShareUX.App">
+          <uap:ShareTarget Description="Photo Store Demo Share">
             <uap:SupportedFileTypes>
               <uap:SupportsAnyFileType />
             </uap:SupportedFileTypes>
