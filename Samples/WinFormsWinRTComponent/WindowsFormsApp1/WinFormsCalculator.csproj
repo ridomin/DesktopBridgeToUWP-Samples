@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp1</RootNamespace>
     <AssemblyName>WindowsFormsApp1</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -64,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -89,9 +91,9 @@
     <PropertyGroup>
       <TargetUWP>..\WinFormsCalculator.Package\Win32\</TargetUWP>
     </PropertyGroup>
-     <ItemGroup>
-       <Win32Binaries Include="$(TargetDir)\*" />
-     </ItemGroup>
+    <ItemGroup>
+      <Win32Binaries Include="$(TargetDir)\*" />
+    </ItemGroup>
     <Copy SourceFiles="@(Win32Binaries)" DestinationFolder="$(TargetUWP)" />
   </Target>
 </Project>

@@ -1,0 +1,1 @@
+C:\code\DesktopBridgeToUWP-Samples\Samples\WinFormsWinRTComponent\WinFormsCalculator.Package\bin\x86\Release\Upload\WinFormsCalculator.Package_1.1.0.0\WinFormsCalculator.Package_1.1.0.0_x86.appxbundle

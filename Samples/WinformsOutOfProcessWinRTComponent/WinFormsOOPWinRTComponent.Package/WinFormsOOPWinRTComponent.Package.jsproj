@@ -52,10 +52,11 @@
     <TargetPlatformMinVersion>10.0.15063.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>$(VersionNumberMajor).$(VersionNumberMinor)</MinimumVisualStudioVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>WinFormsOOPWinRTComponent.Package_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>WinFormsOOPWinRTComponent.Package_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>x86</AppxBundlePlatforms>
     <AppxBundle>Auto</AppxBundle>
+    <PackageCertificateThumbprint>920EA8030E9DF544D3F33DB7FB67E7C135A623F4</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -68,6 +69,8 @@
     <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.scale-200.png" />
+    <None Include="WinFormsOOPWinRTComponent.Package_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Win32\WindowsFormsApp1.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

@@ -52,9 +52,11 @@
     <TargetPlatformMinVersion>10.0.15063.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>$(VersionNumberMajor).$(VersionNumberMinor)</MinimumVisualStudioVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>WinFormsCalculator.Package_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>WinFormsCalculator.Package_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>x86</AppxBundlePlatforms>
+    <AppxBundle>Always</AppxBundle>
+    <PackageCertificateThumbprint>AFDC8DF08D3721A581437AE75AA79A1C982E675C</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -67,6 +69,8 @@
     <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.scale-200.png" />
+    <None Include="WinFormsCalculator.Package_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Win32\WindowsFormsApp1.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

@@ -1,13 +1,3 @@
-﻿//*********************************************************
-//
-// Copyright (c) Microsoft. All rights reserved.
-// This code is licensed under the MIT License (MIT).
-// THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF
-// ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
-// IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR
-// PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
-//
-//*********************************************************
 
 
 /* this ALWAYS GENERATED file contains the definitions for the interfaces */
@@ -16,7 +6,7 @@
  /* File created by MIDL compiler version 8.01.0622 */
 /* at Mon Jan 18 19:14:07 2038
  */
-/* Compiler settings for C:\Users\User\AppData\Local\Temp\Microsoft.SDKSamples.Kitchen.idl-dd1f0364:
+/* Compiler settings for C:\Users\rmpablos\AppData\Local\Temp\Microsoft.SDKSamples.Kitchen.idl-3edd2a41:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.01.0622 
     protocol : dce , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
@@ -1294,6 +1284,5 @@ void                      __RPC_USER  HSTRING_UserFree(     __RPC__in unsigned l
 #endif
 
 #endif
-
 
 
