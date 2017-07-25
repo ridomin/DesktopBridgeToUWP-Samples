@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap mp rescap uap2 uap3">
-  <Identity Name="PhotoStoreDemo" Version="1.0.0.0" Publisher="CN=rmpab" />
-  <mp:PhoneIdentity PhoneProductId="c312da62-4ea1-4862-9728-60f4480c4e51" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="18656RidoMin.RidoEntryPoint" Version="1.3.0.0" Publisher="CN=FD784322-3D44-4DA4-9F73-0E23D5DF0893" />
+  <mp:PhoneIdentity PhoneProductId="27520621-5051-49c5-9dae-c9c212f9d8e3" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>PhotoStoreDemo.Package</DisplayName>
-    <PublisherDisplayName>rmpablos</PublisherDisplayName>
+    <DisplayName>RidoEntryPoint</DisplayName>
+    <PublisherDisplayName>Rido Min</PublisherDisplayName>
     <Logo>Assets\storelogo.png</Logo>
   </Properties>
   <Dependencies>

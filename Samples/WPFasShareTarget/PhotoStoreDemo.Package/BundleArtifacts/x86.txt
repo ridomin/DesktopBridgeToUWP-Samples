@@ -1,0 +1,2 @@
+MainPackage=C:\code\DesktopBridgeToUWP-Samples\Samples\WPFasShareTarget\PhotoStoreDemo.Package\bin\x86\Release\PhotoStoreDemo.Package_1.3.0.0_x86.appx
+SymbolPackage=C:\code\DesktopBridgeToUWP-Samples\Samples\WPFasShareTarget\PhotoStoreDemo.Package\AppPackages\PhotoStoreDemo.Package_1.3.0.0_Test\PhotoStoreDemo.Package_1.3.0.0_x86.appxsym
